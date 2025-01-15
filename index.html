@@ -5,111 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio of Vencel Aloysius Aranha">
     <title>Vencel Aloysius Aranha - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        /* General Styles */
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #e0eafc, #cfdef3);
+            background-color: #f9f9f9;
             color: #333;
         }
-
-        /* Header Section */
         header {
             background: #2c3e50;
             color: white;
+            padding: 20px 0;
             text-align: center;
-            padding: 20px 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-
-        header img {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            border: 3px solid #fff;
-            margin-bottom: 10px;
-        }
-
         header h1 {
             margin: 0;
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
-
         header p {
-            margin: 5px 0 0;
-            font-size: 1rem;
-            font-style: italic;
+            margin: 5px 0 15px;
+            font-size: 1.2rem;
         }
-
-        /* Navigation */
         nav {
             text-align: center;
-            background-color: #fff;
-            padding: 15px 0;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
         }
-
         nav a {
-            margin: 0 15px;
+            margin: 0 10px;
             text-decoration: none;
+            color: #2c3e50;
             font-weight: bold;
-            color: #333;
         }
-
         nav a:hover {
-            color: #0078d4;
+            text-decoration: underline;
         }
-
-        /* Content Section */
-        .content {
-            max-width: 800px;
-            margin: 40px auto;
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
             padding: 20px;
+            gap: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            max-width: 300px;
             background: #fff;
+            padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
-
-        section {
-            margin-bottom: 40px;
-        }
-
-        section h2 {
+        .sidebar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
             margin-bottom: 15px;
+        }
+        .sidebar h1 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
             color: #2c3e50;
         }
-
-        section ul {
-            padding-left: 20px;
-            list-style: square;
+        .sidebar p {
+            font-size: 1rem;
+            color: #555;
         }
-
-        /* Footer */
+        .content {
+            flex: 3;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        section h2 {
+            color: #2c3e50;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
         footer {
             text-align: center;
-            padding: 15px 20px;
             background: #2c3e50;
             color: white;
-            margin-top: 40px;
+            padding: 10px 0;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="vencelaranha.jpg" alt="Vencel Aloysius Aranha">
         <h1>Vencel Aloysius Aranha</h1>
         <p>MBA Student | Aspiring Finance Professional</p>
     </header>
-<body>
+
     <nav>
-        <a href="#about">About</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
         <a href="#education">Education</a>
         <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
+        <a href="#activities">Activities</a>
         <a href="#contact">Contact</a>
     </nav>
 
@@ -118,9 +118,11 @@
         <div class="sidebar">
             <img src="vencelaranha.jpg" alt="Vencel Aloysius Aranha">
             <h1>Vencel Aloysius Aranha</h1>
-            <p>MBA Student</p>
+            <p>MBA Student<br>Justice K.S. Hegde Institute of Management</p>
+            <p><strong>Phone:</strong> 9741858038</p>
             <p><strong>Email:</strong> <a href="mailto:vencelaranha396@gmail.com">vencelaranha396@gmail.com</a></p>
-            <p><strong>LinkedIn:</strong> <a href="http://linkedin.com/in/vencel-aloysius-aranha" target="_blank">View Profile</a></p>
+            <p><strong>LinkedIn:</strong> <a href="http://linkedin.com/in/vencel-aloysius-aranha" target="_blank">Profile Link</a></p>
+            <p><strong>Address:</strong> Bithul House, Kinnigoli Post, Mangalore</p>
         </div>
 
         <!-- Main Content -->
@@ -128,31 +130,13 @@
             <section id="about">
                 <h2>About Me</h2>
                 <p>
-                    I am pursuing an MBA with a focus on finance, gaining expertise in financial modeling and analysis
-                    through coursework and a one-month finance internship. I adapt well to teamwork and find a cup of coffee
-                    enhances my focus and productivity.
+                    I am pursuing an MBA with a focus on finance, gaining expertise in financial modeling and analysis 
+                    through coursework and a one-month finance internship. Personally, I adapt well to teamwork, leveraging 
+                    my analytical skills effectively. While not the most outgoing, I find a cup of coffee enhances my focus 
+                    and productivity.
                 </p>
-            </section>
-
-               <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li><strong>Master of Business Administration (MBA)</strong> - Justice K.S. Hegde Institute of Management, NITTE (2023 - Present)</li>
-            <li><strong>Bachelor of Commerce (BCom)</strong> - St. Aloysius College, Mangalore (2020 - 2023)</li>
-            <li><strong>PU, Commerce</strong> - Pompei College, Kinnigoli (2018 - 2020)</li>
-            <li><strong>High School</strong> - Maryvale High School, Kinnigoli (2015 - 2018)</li>
-        </ul>
-    </section>
-            <section id="experience">
-        <h2>Experience</h2>
-        <p><strong>Finance Intern</strong> - SIDALCEAS EduTech (Aug 2023 - Sep 2023)</p>
-        <p>
-            During my finance internship, I focused on analyzing financial statements, refining income tax calculations 
-            using Excel, and enhancing my skills in financial modeling and analysis. This experience deepened my understanding 
-            of finance and sharpened my analytical abilities.
-        </p>
-    </section>
-    
+        
+         <!-- Add other sections here -->
             <section id="skills">
                 <h2>Skills</h2>
                 <ul>
@@ -162,9 +146,30 @@
                     <li>Financial Analysis</li>
                 </ul>
             </section>
+                
+ <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Master of Business Administration (MBA)</strong> - Justice K.S. Hegde Institute of Management, NITTE (2023 - Present)</li>
+            <li><strong>Bachelor of Commerce (BCom)</strong> - St. Aloysius College, Mangalore (2020 - 2023)</li>
+            <li><strong>PU, Commerce</strong> - Pompei College, Kinnigoli (2018 - 2020)</li>
+            <li><strong>High School</strong> - Maryvale High School, Kinnigoli (2015 - 2018)</li>
+        </ul>
+    </section>
 
-               <section id="projects">
-      <h2>Projects</h2>
+    <section id="experience">
+        <h2>Experience</h2>
+        <p><strong>Finance Intern</strong> - SIDALCEAS EduTech (Aug 2023 - Sep 2023)</p>
+        <p>
+            During my finance internship, I focused on analyzing financial statements, refining income tax calculations 
+            using Excel, and enhancing my skills in financial modeling and analysis. This experience deepened my understanding 
+            of finance and sharpened my analytical abilities.
+        </p>
+    </section>
+
+    <section id="projects">
+  <h2>Projects</h2>
+
   <!-- Apple Inc. Analysis -->
   <div class="project">
     <h3>Apple Inc.: A Comprehensive Market Analysis</h3>
@@ -198,17 +203,30 @@
     <p>Conducted a comparative financial analysis of Tata Motors and Mahindra & Mahindra, reviewing income statements, cash flow, and balance sheets. Analyzed key financial ratios to assess investment potential.</p>
   </div>
 </section>
-            <section id="contact">
-                <h2>Contact</h2>
-                <p><strong>Phone:</strong> 9741858038</p>
-                <p><strong>Email:</strong> <a href="mailto:vencelaranha396@gmail.com">vencelaranha396@gmail.com</a></p>
-                <p><strong>LinkedIn:</strong> <a href="http://linkedin.com/in/vencel-aloysius-aranha" target="_blank">Profile</a></p>
-            </section>
-        </div>
-    </div>
+
+
+    <section id="activities">
+        <h2>Activities & Interests</h2>
+        <ul>
+            <li>Reading light novels and comics</li>
+            <li>Exploring new operating systems and software</li>
+            <li>Attended Industry Conclave at Justice K.S. Hegde Institute of Management (2023)</li>
+            <li>Donated blood at Blood Donation Camp (2023)</li>
+            <li>Participated in HR Convergence Skit Competition (2023)</li>
+            <li>Attended Knowledge Factory (2022)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><strong>Phone:</strong> 9741858038</p>
+        <p><strong>Email:</strong> <a href="mailto:vencelaranha396@gmail.com">vencelaranha396@gmail.com</a></p>
+        <p><strong>Linkedln:</strong> <a href="http://linkedin.com/in/vencel-aloysius-aranha">http://linkedin.com/in/vencel-aloysius-aranha</a></p>
+        <p><strong>Address:</strong> Bithul House, Kinnigoli Post, Mangalore</p>
+    </section>
 
     <footer>
-        <p>© 2025 Vencel Aloysius Aranha</p>
+        <p>© 2025 Vencel Aloysius Aranha | Hosted on GitHub Pages</p>
     </footer>
 </body>
 </html>
