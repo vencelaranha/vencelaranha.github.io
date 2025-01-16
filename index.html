@@ -9,7 +9,7 @@
     <style>
         /* General Styles */
         html {
-            scroll-behavior: smooth; /* Enables smooth scrolling */
+            scroll-behavior: smooth;
         }
 
         body {
@@ -18,7 +18,6 @@
             padding: 0;
             background: linear-gradient(to right, #e0eafc, #cfdef3);
             color: #333;
-            height: 100%;
         }
 
         /* Full-Screen Layout */
@@ -36,12 +35,12 @@
             align-items: center;
             justify-content: center;
             gap: 20px;
-            flex-wrap: wrap; /* Wrap on smaller screens */
+            flex-wrap: wrap;
             padding: 40px 20px;
         }
 
         header img {
-            width: 150px; /* Larger size */
+            width: 150px;
             height: 150px;
             border-radius: 50%;
             border: 4px solid #fff;
@@ -104,6 +103,16 @@
             color: #2c3e50;
         }
 
+        section h4 {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        section ul li {
+            margin-bottom: 10px;
+        }
+
         /* Modal Styles */
         .modal {
             display: none;
@@ -121,13 +130,27 @@
         .modal img {
             width: 90%;
             max-width: 600px;
-            height: auto; /* Maintains aspect ratio */
+            height: auto;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
         }
 
         .modal:target {
             display: flex;
+        }
+
+        /* Contact Section */
+        #contact p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        #contact img {
+            width: 24px;
+            height: 24px;
         }
 
         /* Footer */
@@ -143,7 +166,7 @@
         @media (max-width: 768px) {
             header {
                 padding: 20px;
-                flex-direction: column; /* Stack elements */
+                flex-direction: column;
             }
 
             header img {
